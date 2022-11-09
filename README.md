@@ -19,3 +19,9 @@ terraform plan
 ```sh
 terraform apply
 ```
+
+## Opening HTTP server
+
+```sh
+nohup busybox httpd -f -p 8080 &
+```
